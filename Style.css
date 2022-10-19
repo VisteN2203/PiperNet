@@ -1,0 +1,273 @@
+body::-webkit-scrollbar {
+    width: 10px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background:none;        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #007765;    /* цвет плашки */
+    border-radius: 40px;       /* закругления плашки */
+    border: 3px solid rgb(255, 255, 255);  /* padding вокруг плашки */
+  }
+
+
+
+
+body{
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;}
+
+*{
+ box-sizing: border-box;}
+
+ h1, h2, h3, h4, h5, h6{
+     margin: 0;}
+
+.main_container{
+ width: 100%;
+ max-width: 1219px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 55px;
+ padding-right: 55px;}
+
+.header_zero{
+    width: 100%;
+    background-color: #007765;
+    height:84px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 21;
+    transition: height 1s ease-in-out;}
+
+.navigation_conteiner{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+.minu_link{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #fff;
+    transition: color .2s linear;
+    transition: font-size .3s linear;}
+
+.minu_link:hover{
+     color:#00342C;
+     font-size:28px;}
+
+     /*   JUMBOTRON   */
+.Papirnet{
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;}
+
+.srs_section{
+    background:url("/Picture/image.png")center;
+    background-size: cover;
+    margin-top:84px;
+    margin-left:0px;
+    padding-top: 160px;
+    padding-bottom: 160px;}
+
+    /*   THE PROBLEM    */
+
+.problem{
+    background-color: #EEEEEE;
+    padding-top: 55px;
+    padding-bottom: 92px;}
+
+.lize_container{
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+    padding-bottom:55px;}
+
+.The_Problem{
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;}
+
+.TEXTMORETEXT{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 37px;
+    color: #000000;}
+
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+
+.p_sit{
+    margin-bottom: 0;}
+
+    /* <!-- HERO --> */
+
+.hero{
+    background: url("/Picture/image\(hero\).png") center no-repeat;
+    background-size: cover;
+    padding-top: 85px;
+    padding-bottom: 85px;}
+
+.hero_conteiner{
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+    padding-bottom:55px;}
+
+.hero_text{
+    width: 100%;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+    padding-left: auto;
+    padding-right: auto;
+    word-wrap:break-word;}
+
+    /* <!--PIED PIPER COIN--> */
+
+.Piper_Coin{
+    background: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 92px;}
+
+.Piper_conteiner{
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 55px;
+    padding-left:55px;}
+
+.Introducing_PiedPiperCoin{
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;}
+
+.LOGOPPC{
+    float: left;
+    padding-right: 48px;
+    margin-top: 100px;}
+
+  
+.PPC_Text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;}
+
+    /* THE TEAM */
+
+.The_Team{
+    background: #EEEEEE;
+    padding-top:58px;
+    text-align: center;}
+
+.figure{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Team_conteiner{
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.Main_text_team{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    
+    padding-top: 48px;
+    margin-left: 55px;
+    padding-bottom: 58px;}
+
+.Card_FULL{
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;}
+    
+.Richard_img{
+    width: 168px;
+    height: 168px;}
+
+.Richard_Hendricks, .Bertram_Gilfoyle, .Dinesh_Chugtai , .Jared_Dunn, .Monica, .Nelson{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #007765;}
+
+
+    /* <!--FOOTER--> */
+
+.Footer_conteiner{
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 55px;
+    padding-left: 55px;}
+
+.Footer{
+    padding-top: 50px;
+    background-color: #333;
+    height: 176px;
+    text-align: center;}
+
+.Footer_Text{
+    width: 540px;
+    height: 64px;
+    margin: 0 auto;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;}
+
+    h5 {
+        display: block;
+        font-size: 0.83em;
+        margin-block-start: 1.67em;
+        margin-block-end: 1.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
